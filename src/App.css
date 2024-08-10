@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  background-color: goldenrod;
+}
+.img{
+  padding-top: 30px;
+}
+.h3{
+  text-align:justify;
+  background-color: yellowgreen;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-left: 95px;
+}
+.a{
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.a :hover{
+  background-color: black;
+  color: red;
+}
+.border{
+  background-color: goldenrod;
+  text-align: center;
+}
