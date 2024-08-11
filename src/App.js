@@ -2,6 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import akash from './akash.jpg'
 import resume from './resume.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faDownload} from '@fortawesome/free-solid-svg-icons'
+import {faStar} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
 
 function App() {
   return (
@@ -12,6 +18,7 @@ function App() {
       <h1>-I,M AKASH</h1>
       <h2>WEB DEVELOPER</h2>
       <p>I'm an enthusiastic web developer focused oncrafting clean & user-friendly experiences. I'm passionate about building excellent software that improves the lives of those around me</p>
+      
       -------
       <div className="h3">
       <h1>ABOUT ME</h1>
@@ -24,11 +31,12 @@ function App() {
       </div>
       ------------
       <h1>MY SKILLS</h1>
-      <p>Java =</p>
-      <p>React=</p>
-      <p>C=</p>
+      <p>Java = <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></p>
+      <p>React= <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></p>
+      <p>C= <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></p>
       <p>You can view my resume </p>
-      <a className="a" href={resume} alt="resume image">Download</a>
+      <a className="a" href={resume} alt="resume image"><FontAwesomeIcon icon={faDownload}/>Download</a>
+      
        <p>--------------------------------------------------</p>
        <h1>EDUCATION</h1>
        <h2>UG DEGREE - SNS INSTITUTIONS</h2>
@@ -40,8 +48,8 @@ function App() {
         <div className="border">
         <h1>CONTACT</h1>
         <p>If you want to discuss more in details, please contact me</p>
-        <p>Email: akashsofficial05@gmail.com</p>
-        <p>Phone: 9791611675</p>
+        <p><FontAwesomeIcon icon={faEnvelope}/>Email: akashsofficial05@gmail.com</p>
+        <p><FontAwesomeIcon icon={faPhone}/>Phone: 9791611675</p>
         </div>
       </border>
   
